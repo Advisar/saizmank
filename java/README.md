@@ -1,12 +1,12 @@
-#Objective
+# Objective
 
-The objective of this exercise is to create a series of REST services that produce JSON data with accompanying data 
+The objective of this exercise is to create a series of REST services that produce JSON data with accompanying data
 access and database functionality sufficient to complete the user story. There are no UI components and each story
 will be accepted using a Postman.
 
-#Setup
+# Setup
 
-##Software
+## Software
 
 Mac or Windows
 
@@ -14,19 +14,19 @@ Mac or Windows
     2. PgAdmin or other Postgres database tool
     3. Postman or other REST client
 
-##Installation
+## Installation
 
     Open a terminal session and go to the docker folder in this project
     run ./docker-create.sh this will create the database named product
     if you need to start the database (if database is already created) run ./docker-start.sh
     if you need to destroy the database run ./docker-destroy.sh
 
-##Execution
+## Execution
 
 The project may be run in any IDE that is capable of understanding Gradle project structures or manually
 by `gradlew bootRun` or `gradlew.bat bootRun` depending on your operating system.
 
-When the project is started a `product` schema will be created and the `src/main/resources/db/migration/R__create_product_schema.sql` 
+When the project is started a `product` schema will be created and the `src/main/resources/db/migration/R__create_product_schema.sql`
 database script will execute to perform any SQL statements needed for the exercise.
 
 # Data Model
@@ -35,12 +35,12 @@ Product
 
         A product has a numeric identifier, a name with at least 4 characters and no more than 80, an optional description and a flag indicating if it is in stock.
         A product can only be sold from one warehouse at a time but may be transferred from one warehouse to another.
-        
+
 Warehouse
 
         A warehouse has a numeric identifier, a name with at least 10 characters and no more than 80 and a zip code.
 
-#Stories
+# Stories
 
 1 - Add product to warehouse
    

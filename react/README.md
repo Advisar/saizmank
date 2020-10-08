@@ -185,7 +185,7 @@ $ docker rm --force test-backend
 - Create a cone with 1 to 3 scoops, 0 or 1 topping, and 0 or 1 sauce.
 - The container of the ice cream is required and preselected to waffle cone.
 - Add up the total of all the items in the cart before purchasing the ice cream.
-- The selection border, "Add a Topping", "Add a Sauce",input fields, buttons, and icons should be based on the secondary color.
+- The selection border, "Add a Topping", "Add a Sauce", input fields, buttons, and icons should be based on the secondary color.
 - The text fields should have a text mask based on the context:
     - Card Number: Only 16 numbers (####-####-####-####)
     - Expiration: Only 4 numbers (MM/YY)
