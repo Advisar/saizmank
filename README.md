@@ -1,1 +1,1 @@
-# saizmank
+This repository includes 2 tests. One on Java and one on React.
